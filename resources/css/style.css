@@ -115,6 +115,11 @@ nav ul a:hover {
     justify-content: space-around;
     margin-top: 5rem;
 }
+
+.main_page__button_wrapper a{
+    text-decoration: none;
+}
+
 /* specials */
 #buttonStyle_cyan {
     border: 1px solid var(--strongCyan);
@@ -122,6 +127,7 @@ nav ul a:hover {
     background: var(--strongCyan);
     padding: 0 15px;
     border-radius: 6rem;
+    transition: 0.5s;
 }
 #buttonStyle_blue {
     border: 1px solid var(--lightBlue);
@@ -129,4 +135,22 @@ nav ul a:hover {
     background: var(--lightBlue);
     padding: 0 15px;
     border-radius: 6rem;
+    transition: 0.5s;
+}
+
+#buttonStyle_cyan:hover {
+    border: 1px solid hsl(171, 85%, 69%);
+    color: black;
+    background: hsl(171, 85%, 69%);
+    padding: 0 15px;
+    border-radius: 6rem;
+    transition: 0.5s;
+}
+#buttonStyle_blue:hover {
+    border: 1px solid hsl(233, 86%, 80%);
+    color: black;
+    background: hsl(233, 86%, 80%);
+    padding: 0 15px;
+    border-radius: 6rem;
+    transition: 0.5s;
 }
