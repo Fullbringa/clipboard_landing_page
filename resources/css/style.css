@@ -1,0 +1,132 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* variablen */
+:root {
+    /* primary */
+    --strongCyan: hsl(171, 66%, 44%);
+    --lightBlue: hsl(233, 100%, 69%);
+
+    /* neutral */
+    --darkGrayishBlue: hsl(210, 10%, 33%);
+    --grayishBlue: hsl(201, 11%, 66%);
+}
+
+/* general */
+
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3{
+    color: var(--darkGrayishBlue);
+}
+
+/* navbar */
+.navbar_wrapper {
+    background: white;
+    position: fixed;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    min-height: 5vh;
+    margin: 0 auto;
+
+    /* border: 1px solid blue; */
+}
+
+nav #logo {
+    height: 3rem;
+    align-self: center;
+    flex: 3;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    color: var(--darkGrayishBlue);
+    transition: 0.8s;
+    margin-left: 20px;
+} 
+
+nav ul a:hover {
+    color: var(--darkGrayishBlue);
+    transition: 0.8s;
+    border-bottom: 1px solid var(--darkGrayishBlue);
+} 
+
+/* main body home*/
+.main_page__image {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 8rem;
+    height: 85vh;
+    overflow: hidden;
+}
+
+
+.main_page__wrapper__image {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.main_page__hook {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.main_page__hook h1{
+    font-size: 3.5rem;
+}
+
+.main_page__hook p{
+    opacity: 50%;
+    font-size: 1.5rem;
+}
+
+.main_page__button_wrapper {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+/* specials */
+#buttonStyle_cyan {
+    border: 1px solid var(--strongCyan);
+    color: white;
+    background: var(--strongCyan);
+    padding: 0 15px;
+    border-radius: 6rem;
+}
+#buttonStyle_blue {
+    border: 1px solid var(--lightBlue);
+    color: white;
+    background: var(--lightBlue);
+    padding: 0 15px;
+    border-radius: 6rem;
+}
