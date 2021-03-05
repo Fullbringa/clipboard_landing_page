@@ -33,7 +33,7 @@ h1, h2, h3{
 
 h2 {
     font-size: 2rem;
-    margin-top: -5vh; padding-top: 5vh;
+    margin-top: -5vh; padding-top: 6vh;
 }
 
 /* main p {
@@ -419,7 +419,6 @@ footer {
     }
 
     .main__access_image {
-        border: 1px solid green;
         width: 80%;
         margin: auto;
     }
