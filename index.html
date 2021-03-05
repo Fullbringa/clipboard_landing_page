@@ -17,19 +17,19 @@
     <nav>
       <a href="#home"><img id='logo' src="./resources/images/logo.svg" alt="Company logo"></a>
       <ul>
-        <a href="#home">
+        <a class="anchor" href="#home">
           <li>Home</li>
         </a>
-        <a href="#features">
+        <a class="anchor" href="#keep_track">
           <li>Features</li>
         </a>
-        <a href="#access">
+        <a class="anchor" href="#access">
           <li>Accessabilty</li>
         </a>
-        <a href="#workflow">
+        <a class="anchor" href="#workflow">
           <li>Workflow</li>
         </a>
-        <a class="contactUs" id="buttonStyle_cyan" href="#contacts">
+        <a class="anchor" class="contactUs" id="buttonStyle_cyan" href="#contacts">
           <li >Contact Us</li>
         </a>
       </ul>
@@ -68,16 +68,183 @@
         </div>
       </div>
     </section>
-    <section id="features">
+    <div class="features__hero" id="keep_track">
+      <section class="features">
+        <h2>
+          Keep track of your snippets
+        </h2>
+        <p>
+          Clipboard instantly stores any item you copy in the cloud, 
+        meaning you can access your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you organize everything.
+        </p>
+      </section>
 
-    </section>
+      <div class="features__image_text">
+        <div class="features__image">
+          <img src="./resources/images/image-computer.png" alt="Image of an iMac">
+        </div>
+        <div class="features__text">
+          <div class="features__columns">
+            <h3>
+              Quick Search
+            </h3>
+            <p>
+              Easily search your snippets by content, category, web address, application, and more.
+            </p>
+          </div>
+          <div class="features__columns">
+            <h3>
+              iCloud Sync
+            </h3>
+            <p>
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+          </div>
+          <div class="features__columns">
+            <h3>
+              Complete History
+            </h3>
+            <p>
+              Retrieve any snippets from the first moment you started using the app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
-  
+  <section class="main__access" id="access">
+    <h2>
+      Access Clipboard anywhere
+    </h2>
+    <p>
+      Whether you’re on the go, or at your computer, you can access all your Clipboard 
+  snippets in a few simple clicks.
+    </p>
+    <div class="main__access_image">
+      <img src="./resources/images/image-devices.png" alt="">
+    </div>
+  </section>
+
+  <section class="main_workflow" id="workflow">
+    <h2>
+      Supercharge your workflow
+    </h2>
+    <p>
+      We’ve got the tools to boost your productivity.
+    </p>
+</section>
+  <div class="main_workflow__grids">
+    <div class="main_workflow__grid__left">
+      <img src="./resources/images/icon-blacklist.svg" alt="">
+      <h3>
+        Create blacklists
+      </h3>
+      <p>
+        Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+      </p>
+    </div>
+    <div class="main_workflow__grid__mid">
+      <img src="./resources/images/icon-text.svg" alt="">
+      <h3>
+        Plain text snippets
+      </h3>
+      <p>
+        Remove unwanted formatting from copied text for a consistent look.
+      </p>
+    </div>
+    <div class="main_workflow__grid__right">
+      <img src="./resources/images/icon-preview.svg" alt="">
+      <h3>
+        Sneak preview
+      </h3>
+      <p>
+        Quick preview of all snippets on your Clipboard for easy access.
+      </p>
+    </div>
+  </div>
+  <section class="logos">
+    <div class="logo_columns">
+      <div class="logo_column">
+        <img src="./resources/images/logo-google.png" alt="Google Logo">
+      </div>
+      <div class="logo_column">
+        <img src="./resources/images/logo-ibm.png" alt="IBM Logo">
+      </div>
+      <div class="logo_column">
+        <img src="./resources/images/logo-microsoft.png" alt="Microsoft Logo">
+      </div>
+      <div class="logo_column">
+        <img src="./resources/images/logo-hp.png" alt="HP Logo">
+      </div>
+      <div class="logo_column">
+        <img src="./resources/images/logo-vector-graphics.png" alt="Vector Graphics Logo">
+      </div>
+    </div>
+  </section>
+  <section class="ending">
+    <div class="main_page__hook">
+      <div class="section__hook">
+        <h2>
+          Clipboard for iOS and Mac OS
+        </h2>
+        <p>
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+  and you’re ready to start adding to your clipboard.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="main_page__buttons">
+    <div class="main_page__button_wrapper">
+      <a href="#">
+        <div class="main_page__button" id="buttonStyle_cyan">
+          <p>Download for iOS</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="main_page__button" id="buttonStyle_blue">
+          <p>Download for Mac</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  </section>
   <footer>
+    <div class="footer_contactCredentials" id="contacts">
+      <div class="footer_contactCredentials__grids">
+        <div class="footer_contactCredentials__grid_image">
+          <img src="./resources/images/logo.svg" alt="">
+        </div>
+        <div class="footer_contactCredentials__grid_text">
+          <ul>
+            <div class="footer_contactCredentials__left">
+              <a href="#"><li>FAQs</li></a>
+              <a href="#"><li> Contact Us</li></a>
+            </div>
+            <div class="footer_contactCredentials__mid">
+              <a href="#"><li>Privacy Policy</li></a>
+              <a href="#"><li>Press Kit</li></a>
+            </div>
+            <div class="grid_contactCredentials__right">
+              <a href="#"><li>Install Guide</li></a>
+            </div>
+          </ul>
+        </div>
+        <div class="footer__contactCredentials__socialMedia">
+          <div class="socials">
+            <a href="#"><img src="./resources/images/icon-facebook.svg" alt=""></a>
+            <a href="#"><img src="./resources/images/icon-twitter.svg" alt=""></a>
+            <a href="#"><img src="./resources/images/icon-instagram.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Carsten Höschele</a>.
+      <small>&copy; Copyright <script>document.write(new Date().getFullYear())</script>
+        , Clipboard</small>. 
+      <small>Coded by <a href="#">Carsten Höschele</a></small>.
     </p>
   </footer>
 </body>
